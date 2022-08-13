@@ -44,6 +44,7 @@ layout: default
         {% endif %}
       </div>
     </div>
+    <!-- END EDUCATION SECTION -->
   </div>
 </div>
 
@@ -72,6 +73,8 @@ layout: default
   </div>
   <div class="card-body">          
       <div class="tab-content mt-3">
+        <!-- TODO: The following sections seem to be hard coded and will 
+        take time to decipher (JS: 08/13/2022)-->
         {% for section in site.data.sections %}
           {% if section.first %}
             {% if section.name == "Publications" %}

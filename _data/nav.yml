@@ -1,16 +1,16 @@
 nav_list_title: Navigation List
 links:
 
-- title: About
-  url: about.html
+- title: Advising
+  url: advising.html
 
 - title: Publications
   url: publications.html
 
-- title: Blog
-  url: blog.html
+- title: News
+  url: news.html
 
-- title: Vitae
+- title: CV
   url: /assets/pdf/vitae.pdf
 
 - title: Contact

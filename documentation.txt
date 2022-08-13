@@ -1,0 +1,23 @@
+Some documentation:
+
+The following folder is generated automatically and probably shouldn't be edited
+_site/
+
+To edit actual page sites go to this folder:
+pages/
+
+To alter the information contained in the top bar (across all pages) edit the following:
+_data/nav.yml
+
+The information contained in the lower bar on the home page is found in this folder:
+_data/sections.yml
+The headbar for these data is contained here:
+
+
+
+To add in social networking sites & buttons, open and edit the followig file:
+_includes/social.html # This is for the actual sites
+_includes/social-footer.html # This is for the icons at the bottom of the page
+
+
+

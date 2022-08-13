@@ -8,9 +8,9 @@
 # -----------BASE SETTINGS---------------#
 #========================================#
 
-title: Dumbarton 
-email: 
-description: a minimalistic jekyll theme for academics
+title: Alexis Palmer 
+email: alexis {{dot}} palmer {{at}} colorado {{dot}} edu
+description: Website for Alexis Palmer
 baseurl:                                       # the subpath of your site, e.g. /blog
 url: "https://dumbarton.netlify.app/"          # the base hostname & protocol for your site, e.g. http://example.com
 image: /assets/img/dumbarton.png               # used to generate site link preview
@@ -19,19 +19,19 @@ image_alt: A minimalistic jekyll theme for academic    # image description
 # =======================================#
 # -----------SITE SETTINGS---------------#
 #========================================#: 
-author: John Doe 
-profile_image: /assets/img/avatar/cropped.png #/assets/img/avatar/avatar.jpeg 
-occupation: 
+author: 
+profile_image: /assets/img/avatar/2022_08_12.png 
+occupation: Assistant Professor in the Department of Linguistics at the University of Colorado Boulder
 snippet:
-twitter: tbutler0x90
-github: tcbutler320
-linkedin: tyler-b-a700a1aa
-stackoverflow: '12935605'
-website: https://tbutler.org
+twitter: 
+github: alexispalmer
+linkedin: 
+stackoverflow: 
+website: 
 codepen: 
 medium: 
-email: developer.tbutler@gmail.com
-keybase: tbutler320
+email: Alexis {{dot}} Palmer {{at}} colorado {{dot}} edu
+keybase: 
 pgp: 
 ctftime: 
 phonenumber: 
@@ -39,7 +39,7 @@ phonenumber:
 #========================================#
 # --------- UI THEMES -------------------#
 #========================================#
-ui_theme: abyss                                 # Create your own theme by setting options in _data/themes.yml
+ui_theme: alexis                                 # Create your own theme by setting options in _data/themes.yml
 
 
 # =======================================#
@@ -61,11 +61,11 @@ gitalk_distraction_mode: false
 # -----------THEME SETTINGS--------------#
 #========================================#
 
-nav-color: "#00334e"                                 # options: light, dark, transparent, primary, custom | Change the color of the navbar
+nav-color: "#22c2e2"                                 # options: light, dark, transparent, primary, custom | Change the color of the navbar
 footer-color: "#00334e"
-color-scheme: "#00334e"                              # options: demo | changes color scheme based on preset values 
+color-scheme: "#22c2e2"                              # options: demo | changes color scheme based on preset values 
 card-color: "#00334e"                                # Used on cards like the home highlights section
-nav-dIcon: "fas fa-caret-down"                       # Change the navbar dropdown (for mobile or small screen sizes) to any fontawesome icon. for a list of icons visit https://fontawesome.com/ 
+nav-dIcon: "fas fa-bars"                       # Change the navbar dropdown (for mobile or small screen sizes) to any fontawesome icon. for a list of icons visit https://fontawesome.com/ 
 animate: true                                        # false or true, uses animate.css to animate certain functions
 
 # =======================================#

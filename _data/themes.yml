@@ -72,5 +72,37 @@ dark:
     default-button-color: ""
     social-color-footer : black
 
-
-
+alexis: 
+    name: alexis
+    nav-color: "#22c2e2"
+    nav-text: "#04080f"
+    title-font: "Noto Sans JP"
+    link-font: "#079dbe"
+    link-color: "#079dbe"
+    link-font: "Poppins"
+    font: "Poppins"
+    font-color: "Black"
+    social-color: "#079dbe"
+    footer-social-color: "079dbe"
+    button-color: "black"
+    home-highlight-background: "#22c2e2"
+    home-highlight-header-text: "#04080f"
+    education-title-font: "Noto Sans JP"
+    education-title-size: "18px"
+    education-entry-font: "Noto Sans JP"
+    education-entry-size: "18px"
+    education-section-size: "15px"
+    certification-title-font: "Noto Sans JP"
+    certification-title-size: "18px"
+    certification-entry-font: "Noto Sans JP"
+    certification-entry-size: "18px"
+    certification-section-size: "15px"
+    highlights-tab-color: "White"
+    projects-color: "Black"
+    border-style: ""
+    post-tag-size: "20px"
+    post-title-size: "36px"
+    post-author-size: "15px"
+    post-font-weight: "700"
+    default-button-color: ""
+    social-color-footer : black
