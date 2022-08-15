@@ -1,6 +1,7 @@
-- Course: Name1 - Fall 2022
+- Course: Name1
   Semester: Fall 2022
-  Syllabus: pdf link here
+  Syllabus: assets/pdf/palmer_cv_feb2022.pdf
+  Class-Code: LING 9999
   data-id: data-name1
   heading-id: head-name1
   StartDate: 08/22/2022
@@ -9,13 +10,14 @@
   description: >
     Course description
 
-- Course: Computational Models of Discourse - Spring 2022
+- Course: Computational Models of Discourse
   Semester: Spring 2022
-  Syllabus: pdf link here
+  Syllabus: assets/pdf/LING7800_CompDisc.pdf
+  Class-Code: LING 7800/CSCI 7000
   data-id: data-comp-disc-s22
   heading-id: head-comp-disc-s22
-  StartDate: 01/16/2022
+  StartDate: 01/10/2022
   EndDate: 05/03/2022
   first: false   # one must be true to properly display
   description: >
-    Course description
+    This course is an introduction to computational models, corpora, and processing methods for discourse and dialogue. The course will introduce students to the foundational concepts and approaches, building a base from which students can go on to do research in these areas.

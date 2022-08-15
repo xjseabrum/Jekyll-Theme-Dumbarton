@@ -12,9 +12,8 @@ _data/nav.yml
 The information contained in the lower bar on the home page is found in this folder:
 _data/sections.yml
 
-
 To edit the front page text, edit this file:
-
+index.md (in the root directory)
 
 
 

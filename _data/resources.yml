@@ -1,0 +1,17 @@
+- Name: Advising/Office Hours
+  ResourceType: 
+  External-Link: https://calendly.com/alexis-palmer-boulder
+  data-id: res-office-hours
+  heading-id: res-office-hours-header
+  first: true   # one must be true to properly display
+  description: >
+    Use this link to sign up for an advising session or for one of my class's office hours. 
+
+- Name: Resource2
+  ResourceType: ResourceType
+  External-Link: https://www.google.com/
+  data-id: res-name2
+  heading-id: res-name2
+  first: false  
+  description: >
+    Another description
