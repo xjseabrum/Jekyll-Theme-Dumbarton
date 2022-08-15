@@ -45,13 +45,13 @@
         </span>
     {% endif %} 
     {% if site.googlescholar %}
-        <a href="https://scholar.google.com/{{ site.keybase }}">
+        <a href="https://scholar.google.com/citations?user={{ site.googlescholar }}">
         <span style="color: {{ theme.social-color }};">
             <i class="fab fa-keybase"></i></a>
         </span>
     {% endif %} 
-    {% if site.googlescholar %}
-        <a href="https://www.semanticscholar.org/{{ site.keybase }}">
+    {% if site.semanticscholar %}
+        <a href="https://www.semanticscholar.org/author/{{ site.semanticscholar}}">
         <span style="color: {{ theme.social-color }};">
             <i class="fab fa-keybase"></i></a>
         </span>

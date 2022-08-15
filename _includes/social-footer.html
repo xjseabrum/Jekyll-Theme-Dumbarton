@@ -43,5 +43,17 @@
             <i class="fab fa-keybase"></i></a>
         </span>
     {% endif %} 
+    {% if site.googlescholar %}
+    <a href="https://scholar.google.com/citations?user={{ site.googlescholar }}">
+        <span style="color: {{ theme.social-color-footer }};">
+            <i class="fab fa-keybase"></i></a>
+        </span>
+    {% endif %} 
+    {% if site.semanticscholar %}
+    <a href="https://www.semanticscholar.org/author/{{ site.semanticscholar}}">
+        <span style="color: {{ theme.social-color-footer }};">
+            <i class="fab fa-keybase"></i></a>
+        </span>
+    {% endif %} 
     <i> &nbsp;&nbsp; </i>
 </span>

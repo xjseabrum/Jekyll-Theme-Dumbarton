@@ -35,6 +35,8 @@ keybase:
 pgp: 
 ctftime: 
 phonenumber: 
+googlescholar: NVxAbD8AAAAJ&hl=en
+semanticscholar: Alexis-Palmer/6214002
 
 #========================================#
 # --------- UI THEMES -------------------#
@@ -96,6 +98,12 @@ sass:
   sass_dir: _sass
   style: compressed
 
+collections:
+  news:
+    output: true
+  advising:
+    output: true
+  
 
 include:
   - _posts
@@ -119,8 +127,10 @@ scholar:
   last_name: Dumbarton
   style: apa
   locale: en
+  sort_by: year,month
+  order: descending, descending
   source: /_bibliography/
-  bibliography: papers.bib
+  bibliography: citations-scholar.bib
   bibliography_template: bib
   replace_strings: true
   join_strings: true

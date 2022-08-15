@@ -11,11 +11,14 @@ _data/nav.yml
 
 The information contained in the lower bar on the home page is found in this folder:
 _data/sections.yml
-The headbar for these data is contained here:
+
+
+To edit the front page text, edit this file:
 
 
 
-To add in social networking sites & buttons, open and edit the followig file:
+
+To add in social networking sites & buttons, open and edit the following file:
 _includes/social.html # This is for the actual sites
 _includes/social-footer.html # This is for the icons at the bottom of the page
 

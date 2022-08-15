@@ -9,22 +9,22 @@
       <div class="card border-0">
           <div class="card-body">
             <p class="card-text">
+                {% if page.last-updated %}
+                <p class="card-text"><small class="text-muted">This page was last updated at {{ "now" | date: "%Y-%m-%d %H:%M" }}.</small></p>
+                {% endif %}
                 {{ content }}
             </p>
-            {% if page.last-updated %}
-              <p class="card-text"><small class="text-muted">This page was last updated at {{ "now" | date: "%Y-%m-%d %H:%M" }}.</small></p>
-            {% endif %}
           </div>
       </div>
       {% else %}
       <div class="card border-0">
           <div class="card-body">
             <p class="card-text">
+                {% if page.last-updated %}
+                <p class="card-text"><small class="text-muted">This page was last updated at {{ "now" | date: "%Y-%m-%d %H:%M" }}.</small></p>
+                {% endif %}
                 {{ content }}
             </p>
-            {% if page.last-updated %}
-              <p class="card-text"><small class="text-muted">This page was last updated at {{ "now" | date: "%Y-%m-%d %H:%M" }}.</small></p>
-            {% endif %}
           </div>
       </div>
       {% endif %}

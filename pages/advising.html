@@ -13,7 +13,7 @@ last-updated: 2022-08-13 2:30 PM
     <!-- Blog Entries Column -->
     <div class="col-md-8">
           <div class="col-md-12">
-          {% for post in site.posts %}
+          {% for post in site.advising reversed %}
               <div class="blogcard {{post.card}} mb-4 mt-4" style="width: 100%;">
                 <h3><a href="{{ post.url }}" class="nohighlight">{{ post.title }}</a></h3>
                   <a href="#" class="badge badge-primary" style="background-color: rgba(78, 34, 208, 0.1);color: #4e22d0;">{{post.tag}}</a>  
@@ -31,7 +31,7 @@ last-updated: 2022-08-13 2:30 PM
   {% else %}
     <!-- Blog Entries Column -->
       <div class="col-md-12">
-      {% for post in site.posts %}
+      {% for post in site.advising reversed %}
           <div class="blogcard {{post.card}} mb-4 mt-4" style="width: 100%;">
             <h3><a href="{{ post.url }}" class="nohighlight">{{ post.title }}</a></h3>
               <a href="#" class="badge badge-primary" style="background-color: rgba(78, 34, 208, 0.1);color: #4e22d0;">{{post.tag}}</a>  

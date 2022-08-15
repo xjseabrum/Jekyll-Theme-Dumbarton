@@ -77,7 +77,7 @@ alexis:
     nav-color: "#22c2e2"
     nav-text: "#04080f"
     title-font: "Noto Sans JP"
-    link-font: "#079dbe"
+    link-font: "#04080f"
     link-color: "#079dbe"
     link-font: "Poppins"
     font: "Poppins"
