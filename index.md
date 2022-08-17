@@ -3,27 +3,44 @@ layout: home
 title: 
 date: 2020-11-20 
 ---
-Contact Box here.
-<div class="card" style="width: 18rem;">
-  <img src="" class="card-img-top" alt="...">
+### Alexis Palmer
+<div class="blogcard card-4 mb-0" style="width: 100%;">
   <div class="card-body">
-    <h5 class="card-title">Card title</h5>
-    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-  </div>
-  <ul class="list-group list-group-flush">
-    <li class="list-group-item">Cras justo odio</li>
-    <li class="list-group-item">Dapibus ac facilisis in</li>
-    <li class="list-group-item">Vestibulum at eros</li>
-  </ul>
-  <div class="card-body">
-    <a href="#" class="card-link">Card link</a>
-    <a href="#" class="card-link">Another link</a>
+    <h5 class="card-title text-center" style="font-size:{{ theme.post-title-size }};font-weight:{{ theme.post-font-weight }};">{{"Contact"}}
+    </h5>
+    <!--- The following is ripped directly from Nathan Scheider's website
+    https://people.cs.georgetown.edu/nschneid/ .  It has been adjusted to suit
+    the needs and aesthetics of this website --->
+    <ul id="contact" class="well" style="list-style-type: none; position: relative;">
+      <li style="padding-left: 1em;">
+        <span class="fas fa-map-marker-alt" style="position: absolute; left: 1em; top: unset">
+        </span>
+        <a href="https://www.colorado.edu/map/?id=336#!m/193852" target="_blank" class="highlighted">Lucile Berkeley Buchanan (LBB) Building
+        </a> (Linguistics & CS) 
+      </li>
+      <li style="padding-left: 1em;">
+        <a href="https://www.colorado.edu/map/?id=336#!m/193881" target="_blank" class="highlighted"> Hellems Arts & Sciences (HLMS)
+        </a> (Linguistics) 
+      </li>
+      <li style="padding-left: 1em;">
+        <span class="fas fa-phone" style="position: absolute; left: 1em; top: unset;">
+        </span>
+        <!-- TODO: Get office telephone number -->
+        <a href="tel:+1" class="highlighted">+1 (999) 999-9999
+        </a>
+      </li>
+      <li style="padding-left: 1em;" class="email">
+        <a href="mailto:alexis.palmer@colorado.edu" class="highlighted">
+          <span class="fas fa-envelope" style="position: absolute; left: 1em;">
+          </span>alexis.
+            <span style="display: none">i.hate.spam.
+            </span>palmer@colorado.edu
+        </a>
+      </li>
+    </ul>
   </div>
 </div>
 
-
-
-### Alexis Palmer
 <br> Assistant Professor 
 <br> <a href="https://www.colorado.edu/linguistics/" class="highlighted" target="_blank"> **Department of Linguistics**
 <br> <a href="https://colorado.edu/" class="highlighted" target = "_blank">**University of Colorado Boulder**
