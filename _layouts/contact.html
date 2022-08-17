@@ -1,11 +1,22 @@
 ---
 layout: page
 permalink: contact.html
-title: Contact Me
+title: Contact
 header-img:  
 last-updated: 2020-10-30 5:55 PM
 ---
+
+{% assign post_dir = site.news %}
 {% assign theme = site.data.themes[site.ui_theme] %}
+{% assign PAGE_TITLE = "Contact Me" %}
+
+<div class="blogcard card-1 mb-5" style="width: 100%;">
+  <div class="card-body">
+    <h5 class="card-title text-center" style="font-size:{{ theme.post-title-size }};font-weight:{{ theme.post-font-weight }};">{{ PAGE_TITLE }}
+    </h5>
+  </div>
+</div>
+
 <div class="blogcard card-2 mb-4 mt-4" style="width: 100%;">
   <div class="card-body">
     <h1 class="card-title text-center" style="font-size:{{ theme.post-title-size }};font-weight:{{ theme.post-font-weight }};">{{ page.title }}</h1>
