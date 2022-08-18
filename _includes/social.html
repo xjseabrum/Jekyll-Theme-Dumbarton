@@ -1,4 +1,6 @@
 {% assign theme = site.data.themes[site.ui_theme] %}
+<!-- Keep the following line here to use Academicons -->
+<link rel="stylesheet" href="/css/academicons.min.css"/>
 <!-- Displays Social Media Icons based on _config.yml settings -->
 <span style="color:{{ theme.social-color }};">
     <i> &nbsp;&nbsp; </i>
@@ -47,13 +49,13 @@
     {% if site.googlescholar %}
         <a href="https://scholar.google.com/citations?user={{ site.googlescholar }}">
         <span style="color: {{ theme.social-color }};">
-            <i class="fas fa-external-link-alt"></i></a>
+            <i class="ai ai-google-scholar-square ai-lg"></i></a>
         </span>
     {% endif %} 
     {% if site.semanticscholar %}
         <a href="https://www.semanticscholar.org/author/{{ site.semanticscholar}}">
         <span style="color: {{ theme.social-color }};">
-            <i class="fas fa-external-link-alt"></i></a>
+            <i class="ai ai-semantic-scholar-square ai-lg"></i></a>
         </span>
     {% endif %}
     <i> &nbsp;&nbsp; </i>
