@@ -9,5 +9,7 @@ If you need an advising appointment or want to sign up for office hours, please 
 For other inquiries, please email me at 
         <a href="mailto:alexis.palmer@colorado.edu" class="highlighted"> alexis.
             <span style="display: none">i.hate.spam.
-            </span>palmer@colorado.edu
+            </span>palmer
+            <span style="display: none">i.hate.spam.
+            </span>@colorado.edu
         </a>

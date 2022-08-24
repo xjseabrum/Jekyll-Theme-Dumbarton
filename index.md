@@ -34,7 +34,9 @@ date: 2020-11-20
           <span class="fas fa-envelope" style="position: absolute; left: 1em;">
           </span>alexis.
             <span style="display: none">i.hate.spam.
-            </span>palmer@colorado.edu
+            </span>palmer
+            <span style="display: none">i.hate.spam.
+            </span>@colorado.edu
         </a>
       </li>
     </ul>
