@@ -549,7 +549,7 @@ border-radius: 0%;
 .glowing-border:hover { 
   outline: none;
   border-color: #495464;
-  box-shadow: 0 0 20px #495464;
+  box-shadow: 0 0 10px #495464;
 }
 
 

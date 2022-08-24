@@ -14,7 +14,7 @@
 
 - name: Teaching
   id: teaching
-  description: Courses that I am teaching or have taught.
+  description: Courses that I am teaching this semester.
   url: 
   content: teaching.html
   first: false
