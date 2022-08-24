@@ -18,7 +18,7 @@ last-updated: 2022-08-13 2:30 PM
 </div>
 
 Courses I am teaching or have taught.
-To see the syllabus of a course, click on the course name.
+To see the latest syllabus of a course, click on the course name.
 
 <!-- Page Content -->
   {% if site.twitter-widget %}
@@ -48,7 +48,7 @@ To see the syllabus of a course, click on the course name.
           <div class="blogcard {{post.card}} mb-4 mt-4" style="width: 100%;">
             <h3><a href="{{ post.syllabus }}" class="highlighted"  target="_blank">{{ post.title }}</a></h3>
               <a href="#" class="badge badge-primary" style="background-color: rgba(78, 34, 208, 0.1);color: #4e22d0;">{{post.code}}</a>  
-            <p>{{post.semester}} Semester ({{post.dates}})</p>
+            <p>{{post.semesters}}</p>
             <p>{{post.description}}</p>
           </div>
       {% endfor %}
