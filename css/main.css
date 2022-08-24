@@ -581,21 +581,19 @@ border-radius: 0%;
 }
 
 .teaching{
-  /* background: rgba(3, 121, 113, 0.15);
-  */
-  box-shadow: 0 6px 10px rgba(3, 121, 113, 0.35), 0 0 6px rgba(3, 121, 113, 0.35);
+  background: rgba(208, 104, 109, 0.15);
+
+  box-shadow: 0 6px 10px rgba(208, 104, 109, 0.35), 0 0 6px rgba(208, 104, 109, 0.35);
 }
 
 .resources{
-  /* background: rgba(3, 29, 68, 0.15);
-  */
+  background: rgba(3, 29, 68, 0.15);
   box-shadow: 0 6px 10px rgba(3, 29, 68, 0.35), 0 0 6px rgba(3, 29, 68, 0.35);
 }
 
 .news{
-  /* background: rgba(255, 240, 124, 0.15);
-  */
-  box-shadow: 0 6px 10px rgba(255, 240, 124, 0.35), 0 0 6px rgba(255, 240, 124, 0.35);
+  background: rgba(212, 205, 171, 0.15);
+  box-shadow: 0 6px 10px rgba(212, 205, 171, 0.35), 0 0 6px rgba(212, 205, 171, 0.35);
 }
 
 .blogcard:hover{
