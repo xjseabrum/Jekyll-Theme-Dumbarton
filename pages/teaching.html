@@ -1,13 +1,13 @@
 ---
 layout: page
-permalink: /news.html
-title: News
-description: News and Announcements
+permalink: /teaching.html
+title: Teaching
+description: Courses that I am teaching or have taught.
 header-img:  
-last-updated: 2022-08-13 2:33 PM
+last-updated: 2022-08-13 2:30 PM
 ---
 
-{% assign post_dir = site.news %}
+{% assign post_dir = site.teaching %}
 {% assign theme = site.data.themes[site.ui_theme] %}
 
 <div class="blogcard card-4 mb-5" style="width: 100%;">
@@ -16,6 +16,9 @@ last-updated: 2022-08-13 2:33 PM
     </h5>
   </div>
 </div>
+
+Courses I am teaching or have taught.
+To see the syllabus of a course, click on the course name.
 
 <!-- Page Content -->
   {% if site.twitter-widget %}
@@ -43,13 +46,14 @@ last-updated: 2022-08-13 2:33 PM
       <div class="col-md-12">
       {% for post in post_dir reversed %}
           <div class="blogcard {{post.card}} mb-4 mt-4" style="width: 100%;">
-            <h3><a href="{{ post.url }}" class="nohighlight">{{ post.title }}</a></h3>
-              <a href="#" class="badge badge-primary" style="background-color: rgba(78, 34, 208, 0.1);color: #4e22d0;">{{post.tag}}</a>  
+            <h3><a href="{{ post.syllabus }}" class="highlighted"  target="_blank">{{ post.title }}</a></h3>
+              <a href="#" class="badge badge-primary" style="background-color: rgba(78, 34, 208, 0.1);color: #4e22d0;">{{post.code}}</a>  
+            <p>{{post.semester}} Semester ({{post.dates}})</p>
             <p>{{post.description}}</p>
-            <p><i>{{post.lead}}</i></p>
           </div>
       {% endfor %}
       </div>
     </div>
   {% endif %}
-
+<!-- End Page Content -->
+</div>

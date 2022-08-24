@@ -562,6 +562,30 @@ border-radius: 0%;
   cursor: pointer;
 }
 
+.advising{
+  background: rgba(179, 27, 240, 0.08);
+}
+
+.research{
+  background: rgba(179, 27, 240, 0.08);
+}
+
+.publications{
+  background: rgba(179, 27, 240, 0.08);
+}
+
+.teaching{
+  background: rgba(179, 27, 240, 0.08);
+}
+
+.resources{
+  background: rgba(179, 27, 240, 0.08);
+}
+
+.news{
+  background: rgba(179, 27, 240, 0.08);
+}
+
 .blogcard:hover{
    transform: scale(1.05);
 box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);

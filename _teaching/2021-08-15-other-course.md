@@ -1,15 +1,18 @@
 ---
 layout: page
-title:  "News"
-description: "The first news post!"
+title:  "Another Course"
+syllabus: "assets/pdf/palmer_cv_feb2022.pdf"
+code: "LING 9999"
+dates: 00/00/0000 - 99/99/9999
+semester: FallSpring
+description: "This course is a course."
 type: card-dated
-date:  2022-08-15 11:26:00 -0400
-categories: First News
-image: http://placehold.it/750X300?text=Header+Image # for local images, place in /assets/img/posts/
-caption: First news post
+date: 2022-08-15 11:26:00 -0400
+categories: courses
+image: 
 last-updated: 2022-08-15 11:26:00 -0400
-categories: news
-tag: important
+categories: teaching
+tag: teaching
 author: 
 card: card-4
 ---
@@ -21,6 +24,3 @@ card: card-4
 [//]: # (When in doubt, refer to the original documentation files under:)
 [//]: # (_posts/original_docs/2020-10-29-welcome-to-jekyll.md and )
 [//]: # (_posts/original_docs/2020-10-28-Dumbarton-Style-Guide.md)
-
-# Title Here
-Words Here.

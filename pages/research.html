@@ -8,6 +8,16 @@ last-updated: 2022-08-13 2:33 PM
 ---
 
 {% assign post_dir = site.research %}
+{% assign theme = site.data.themes[site.ui_theme] %}
+
+<div class="blogcard card-4 mb-4" style="width: 100%;">
+  <div class="card-body">
+    <h5 class="card-title text-center" style="font-size:{{ theme.post-title-size }};font-weight:{{ theme.post-font-weight }};">{{ page.title }}
+    </h5>
+  </div>
+</div>
+
+These are my current research areas of interest.
 
 <!-- Page Content -->
   {% if site.twitter-widget %}
@@ -15,7 +25,7 @@ last-updated: 2022-08-13 2:33 PM
     <!-- Blog Entries Column -->
     <div class="col-md-8">
           <div class="col-md-12">
-          {% for post in Post_dir %}
+          {% for post in post_dir %}
               <div class="blogcard {{post.card}} mb-4 mt-4" style="width: 100%;">
                 <h3><a href="{{ post.url }}" class="nohighlight">{{ post.title }}</a></h3>
                   <a href="#" class="badge badge-primary" style="background-color: rgba(78, 34, 208, 0.1);color: #4e22d0;">{{post.tag}}</a>  

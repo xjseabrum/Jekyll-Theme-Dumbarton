@@ -101,10 +101,17 @@ sass:
   sass_dir: _sass
   style: compressed
 
+
+# Add in folders from which the site htmls will 
+# read from.
 collections:
   news:
     output: true
   advising:
+    output: true
+  resources:
+    output: true
+  teaching:
     output: true
   resources:
     output: true

@@ -79,14 +79,14 @@ layout: default
         {% for section in site.data.sections %}
           {% if section.first %}
             {% if section.name == "Research" %}
-              <div class="tab-pane active overflow-auto" id="{{section.id}}" role="tabpanel">
+              <div class="tab-pane active overflow-auto" id="{{section.id}}" role="tabpanel" aria-labelledby="{{section.id}}-tab">
                 <p><i>{{section.description}}</i></p>
                 <p class="card-text">{% bibliography -f papers %}</p>
               </div>
             {% endif %}
           {% endif %}
           {% if section.name == "Publications" %}
-            <div class="tab-pane overflow-auto" id="{{section.id}}" role="tabpanel">
+            <div class="tab-pane overflow-auto" id="{{section.id}}" role="tabpanel" aria-labelledby="{{section.id}}-tab">
               <p><i>{{section.description}}</i></p>
               <p class="card-text">{% bibliography -f citations-scholar %}</p>
             </div>            
