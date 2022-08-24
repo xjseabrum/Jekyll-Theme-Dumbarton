@@ -563,32 +563,43 @@ border-radius: 0%;
 }
 
 .advising{
-  background: rgba(179, 27, 240, 0.08);
+  background: rgba(232, 103, 64, 0.15);
+  /*
+  box-shadow: 0 6px 10px rgba(232, 103, 64, 0.35), 0 0 6px rgba(232, 103, 64, 0.35);
+  */
 }
 
 .research{
-  background: rgba(179, 27, 240, 0.08);
+  /* background: rgba(161, 106, 200, 0.15);
+  */
+  box-shadow: 0 6px 10px rgba(161, 106, 200, 0.35), 0 0 6px rgba(161, 106, 200, 0.35);
 }
 
 .publications{
-  background: rgba(179, 27, 240, 0.08);
+  background: rgba(138, 189, 112, 0.15);
+  box-shadow: 0 6px 10px rgba(138, 189, 112, 0.35), 0 0 6px rgba(138, 189, 112, 0.35);
 }
 
 .teaching{
-  background: rgba(179, 27, 240, 0.08);
+  /* background: rgba(3, 121, 113, 0.15);
+  */
+  box-shadow: 0 6px 10px rgba(3, 121, 113, 0.35), 0 0 6px rgba(3, 121, 113, 0.35);
 }
 
 .resources{
-  background: rgba(179, 27, 240, 0.08);
+  /* background: rgba(3, 29, 68, 0.15);
+  */
+  box-shadow: 0 6px 10px rgba(3, 29, 68, 0.35), 0 0 6px rgba(3, 29, 68, 0.35);
 }
 
 .news{
-  background: rgba(179, 27, 240, 0.08);
+  /* background: rgba(255, 240, 124, 0.15);
+  */
+  box-shadow: 0 6px 10px rgba(255, 240, 124, 0.35), 0 0 6px rgba(255, 240, 124, 0.35);
 }
 
 .blogcard:hover{
    transform: scale(1.05);
-box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
 }
 
 .blogcard h3{
