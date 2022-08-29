@@ -21,5 +21,7 @@ To add in social networking sites & buttons, open and edit the following file:
 _includes/social.html # This is for the actual sites
 _includes/social-footer.html # This is for the icons at the bottom of the page
 
-
+Important:
+Be sure to update line 15 of the _config.yml file to be the top-level
+domain for the site. 
 
