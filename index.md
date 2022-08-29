@@ -25,7 +25,6 @@ date: 2020-11-20
       <li style="padding-left: 1em;">
         <span class="fas fa-phone" style="position: absolute; left: 1em; top: unset;">
         </span>
-        <!-- TODO: Get office telephone number -->
         <a href="tel:+13037350418" class="highlighted">+1 (303) 735-0418
         </a>
       </li>
