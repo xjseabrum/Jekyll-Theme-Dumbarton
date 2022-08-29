@@ -41,7 +41,7 @@ semanticscholar: Alexis-Palmer/6214002
 #========================================#
 # --------- UI THEMES -------------------#
 #========================================#
-ui_theme: alexis                                 # Create your own theme by setting options in _data/themes.yml
+ui_theme: alexis  # Create your own theme by setting options in _data/themes.yml
 
 
 # =======================================#

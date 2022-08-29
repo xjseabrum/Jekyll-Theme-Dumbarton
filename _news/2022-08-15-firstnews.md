@@ -5,7 +5,7 @@ description: "The first news post!"
 type: card-dated
 date:  2022-08-15 11:26:00 -0400
 categories: First News
-image: http://placehold.it/750X300?text=Header+Image # for local images, place in /assets/img/posts/
+image:  # for local images, place in /assets/img/posts/
 caption: First news post
 last-updated: 2022-08-15 11:26:00 -0400
 categories: news
