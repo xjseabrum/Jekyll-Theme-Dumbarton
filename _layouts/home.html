@@ -81,7 +81,18 @@ layout: default
             {% if section.name == "Research" %}
               <div class="tab-pane active overflow-auto" id="{{section.id}}" role="tabpanel" aria-labelledby="{{section.id}}-tab">
                 <p><i>{{section.description}}</i></p>
-                <p class="card-text">{% bibliography -f papers %}</p>
+                {% for research in site.data.research %}
+                <div class="list-group">
+                  <div class="list-group-item list-group-item-action">
+                    <div class="d-flex w-100 justify-content-between">
+                      <h5 class="mb-1">{{ research.title }}</h5>
+                      <p>Researchers: {{ research.researchers }}</p><br></br>
+                    </div>
+                    <p class="mb-1">Link: {{ research.link }}</p>
+                    <p class="mb-1">{{ research.description }}</p>
+                  </div>
+                </div>
+                {% endfor %}
               </div>
             {% endif %}
           {% endif %}
@@ -101,7 +112,6 @@ layout: default
                         <p>{{ courses.Class-Code }}</p>
                         <p>{{ courses.Semester }}</p>
                         <p><a href= "{{ courses.Syllabus }}" class="highlighted" target="_blank">Syllabus</a></p>
-                        <small>{{ courses.StartDate }} - {{ courses.EndDate }}</small>
                       </div>
                       <p class="mb-1">{{ courses.description }}</p>
                       <small>{{ courses.Department }}</small>

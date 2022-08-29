@@ -1,0 +1,13 @@
+- title: Research Area 1
+  researchers: Alexis Palmer, X, Y, Z
+  link: LINK # if there is a link to find out more about the research
+  first: true   # one must be true to properly display
+  description: >
+    Description of the research
+
+- title: Research Area 2
+  researchers: Alexis Palmer, X, Y, Z
+  link: LINK # if there is a link to find out more about the research
+  first: false   # one must be true to properly display
+  description: >
+    Description of research2
