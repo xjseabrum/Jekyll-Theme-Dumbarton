@@ -205,7 +205,7 @@ fbappid:                                          # Facebook OpenGraph
 
 ### Favicon 
 
-Site favicons are located at `/assets/img/icons`. You can use a [Favicon Generator](https://realfavicongenerator.net/) to create a new set of icons using any image you'd like. Simply create a package from the aboved linked generator and replace the icons folder. 
+Site favicons are located at `/assets/img/favicons`. You can use a [Favicon Generator](https://realfavicongenerator.net/) to create a new set of icons using any image you'd like. Simply create a package from the aboved linked generator and replace the icons folder. 
 
 ## Thanks 
 
