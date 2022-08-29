@@ -568,8 +568,8 @@ border-radius: 0%;
 }
 
 .students{
-  background: rgba(232, 103, 64, 0.25);
-  box-shadow: 0 6px 10px rgba(232, 103, 64, 0.35), 0 0 6px rgba(232, 103, 64, 0.35);
+  background: rgba(150, 212, 224, 0.3);
+  box-shadow: 0 6px 10px rgba(150, 212, 224, 0.45), 0 0 6px rgba(150, 212, 224, 0.45);
 }
 
 .research{
@@ -584,7 +584,6 @@ border-radius: 0%;
 
 .teaching{
   background: rgba(208, 104, 109, 0.22);
-
   box-shadow: 0 6px 10px rgba(208, 104, 109, 0.35), 0 0 6px rgba(208, 104, 109, 0.35);
 }
 
