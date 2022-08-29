@@ -47,4 +47,4 @@ date: 2020-11-20
 <br> <a href="https://www.colorado.edu/linguistics/" class="highlighted" target="_blank"> **Department of Linguistics**
 <br> <a href="https://colorado.edu/" class="highlighted" target = "_blank">**University of Colorado Boulder**
 
-Blurb here.
+I am a computational linguist and a professor in the department of Linguistics at the University of Colorado Boulder. I grew up in rural northern Michigan, studied English literature at the University of Michigan, and later earn both an MA and a PhD in computational linguistics from the University of Texas at Austin. After many years working in research and teaching positions in Germany (Saarbrücken, Stuttgart, and Heidelberg), I returned to the US and to US university culture. My main research interests are computational semantics, computational discourse, and the development and application of computational methods to support language documentation and revitalization. I’m also a musician and a cat lover!

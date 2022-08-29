@@ -725,9 +725,16 @@ $font-family: Proxima, Helvetica, Arial, sans-serif;
 }
 
 /* Layout */
-
 .wrap {
   display: flex;
   font-family: Proxima;
   margin: 5% 0 0 15%;
+}
+
+/* For student images and bios */
+.studentbio {
+  height: 100%;
+  margin: 2px;
+  padding: 5px;
+  overflow: hidden;
 }
