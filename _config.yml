@@ -8,16 +8,13 @@
 # -----------BASE SETTINGS---------------#
 #========================================#
 
-# TODO: (1) Add bar to all pages, like what is present on pub.
-# (2) See if that bar's color can change. (if not then the shadow?)
-
 title: Alexis Palmer 
 email: alexis {{dot}} palmer {{at}} colorado {{dot}} edu
 description: Website for Alexis Palmer
-baseurl:                                       # the subpath of your site, e.g. /blog
-url: "https://dumbarton.netlify.app/"          # the base hostname & protocol for your site, e.g. http://example.com
-image: /assets/img/dumbarton.png               # used to generate site link preview
-image_alt: A minimalistic jekyll theme for academic    # image description
+baseurl:                                  # the subpath of your site, e.g. /blog
+url: "https://dumbarton.netlify.app/"   # the base hostname & protocol for your site, e.g. http://example.com
+image: /assets/img/dumbarton.png           # used to generate site link preview
+image_alt: A minimalistic jekyll theme for academic   # image description
 
 # =======================================#
 # -----------SITE SETTINGS---------------#
@@ -114,6 +111,8 @@ collections:
   teaching:
     output: true
   resources:
+    output: true
+  students:
     output: true
   
 
